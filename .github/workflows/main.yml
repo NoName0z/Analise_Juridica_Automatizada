@@ -1,0 +1,34 @@
+name: Executa Analisador Jurídico Simples
+
+on:
+  push:
+    branches: [ main ] 
+  pull_request:
+    branches: [ main ] 
+
+jobs:
+  analise_simples:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Faz Checkout do Repositório
+      uses: actions/checkout@v4 
+
+    - name: Configura Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Executa o Script de Análise Simples
+      run: | 
+        echo "Iniciando a execução do script Python..."
+        python primeiro_extrator.py
+        echo "Script Python executado com sucesso."
+
+    - name: Verifica se o arquivo de exemplo foi criado (opcional)
+      run: |
+        if [ -f "documento_exemplo.txt" ]; then
+          echo "✅ Arquivo documento_exemplo.txt foi encontrado."
+        else
+          echo "❌ Arquivo documento_exemplo.txt não foi encontrado!"
+          exit 1 # Falha o job se o arquivo não for encontrado
+        fi
