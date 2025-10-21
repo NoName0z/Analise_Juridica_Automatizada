@@ -1,0 +1,19 @@
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+
+Entre:
+EMPRESA ABC LTDA, com CNPJ 12.345.678/0001-90, doravante CONTRATANTE,
+e
+João Silva, CPF 123.456.789-00, doravante CONTRATADO.
+
+CLÁUSULA PRIMEIRA: Objeto do Contrato
+O CONTRATADO prestará serviços de consultoria jurídica trabalhista para a CONTRATANTE.
+
+CLÁUSULA SEGUNDA: Prazo
+O prazo de duração do presente contrato será de 12 (doze) meses, iniciando em 01/01/2025 e terminando em 31/12/2025.
+
+CLÁUSULA TERCEIRA: Remuneração
+A CONTRATANTE pagará ao CONTRATADO o valor mensal de R\$ 5.000,00 (cinco mil reais) até o dia 5 de cada mês.
+
+CLÁUSULA QUARTA: Rescisão
+Este contrato poderá ser rescindido por qualquer das partes mediante aviso prévio de 30 (trinta) dias.
